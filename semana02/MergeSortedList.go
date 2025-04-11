@@ -2,9 +2,7 @@
 #include <queue>
 using namespace std;
 
-/**
- * Definition for singly-linked list.
- */
+
 struct ListNode {
     int val;
     ListNode *next;
@@ -48,3 +46,7 @@ public:
         return dummy->next;
     }
 };
+// Complexidade de tempo: O(N log k)
+// Complexidade de espaço: O(k)
+// Existe solução mais simples: Não com mesmo desempenho
+// Estruturas utilizadas: min-heap, listas encadeadas
